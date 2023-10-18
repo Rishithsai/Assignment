@@ -1,0 +1,74 @@
+/* Styling for calculator */
+
+/* Setting background color */
+body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4cf94c 50%, #090c31 50%);
+  }
+  
+  
+  /* Styling for table */
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  /* Styling for buttons */
+  #btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    background-color:orange;
+    border: none;
+  }
+  
+  /* Styling for equal button */
+  #equal {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Styling for display screen */
+  .display-box {
+    width: 197px;
+    height: 50px;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+
+/*
+  #btn1,#btn5,#btn9,#btn13,#btn16{
+    font-size: 20px;
+    background-color: #20b2aa;
+    }
+    
+    #btn:nth-child(5){
+    font-size: 50px;
+    background-color: #ffa500;
+    }
+    #btn:nth-child(9){
+    font-size: 50px;
+    background-color: #f08080;
+    }
+    #btn:nth-child(13){
+    font-size: 50px;
+    background-color: #7d93e0;
+    }
+    #btn:nth-child(16){
+    font-size: 50px;
+    background-color: #ffffff;
+    }
+
+    */
